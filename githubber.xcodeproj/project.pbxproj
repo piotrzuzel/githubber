@@ -20,6 +20,7 @@
 		13DA5D061DC27A9D004FE0EA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DA5D051DC27A9D004FE0EA /* HTTPClient.swift */; };
 		13DA5D081DC27B04004FE0EA /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DA5D071DC27B04004FE0EA /* SearchRequest.swift */; };
 		13DA5D0A1DC27BF3004FE0EA /* SearchUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DA5D091DC27BF3004FE0EA /* SearchUserRequest.swift */; };
+		13DA5D0C1DC27D1E004FE0EA /* SearchRepositoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DA5D0B1DC27D1E004FE0EA /* SearchRepositoryRequest.swift */; };
 		5417133E7B0AB07892AB7CAC /* Pods_githubberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB099887068E8EC1A0AE453 /* Pods_githubberTests.framework */; };
 		A2CA570F9DA134CBA3319FE6 /* Pods_githubber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF607FE3C424B90385017A07 /* Pods_githubber.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		13DA5D051DC27A9D004FE0EA /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		13DA5D071DC27B04004FE0EA /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
 		13DA5D091DC27BF3004FE0EA /* SearchUserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserRequest.swift; sourceTree = "<group>"; };
+		13DA5D0B1DC27D1E004FE0EA /* SearchRepositoryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepositoryRequest.swift; sourceTree = "<group>"; };
 		2BB099887068E8EC1A0AE453 /* Pods_githubberTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubberTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FE50D00B7941A6B209AB72 /* Pods-githubberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubberTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-githubberTests/Pods-githubberTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF607FE3C424B90385017A07 /* Pods_githubber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +170,7 @@
 				13DA5CFE1DC2793C004FE0EA /* Request.swift */,
 				13DA5D071DC27B04004FE0EA /* SearchRequest.swift */,
 				13DA5D091DC27BF3004FE0EA /* SearchUserRequest.swift */,
+				13DA5D0B1DC27D1E004FE0EA /* SearchRepositoryRequest.swift */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				13DA5CFF1DC2793C004FE0EA /* Request.swift in Sources */,
 				1321621F1DC276040006F77E /* AppDelegate.swift in Sources */,
 				13DA5D0A1DC27BF3004FE0EA /* SearchUserRequest.swift in Sources */,
+				13DA5D0C1DC27D1E004FE0EA /* SearchRepositoryRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +572,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -617,6 +622,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
